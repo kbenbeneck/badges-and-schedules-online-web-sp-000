@@ -7,3 +7,11 @@ def batch_badge_creator(luminaries)
     badge_maker(name)
   end
 end
+
+def assign_rooms(array)
+  room=0
+  array.map do |name|
+    room+=1
+   "Hello, #{name}! You'll be assigned to room #{room}!"
+ end
+end
