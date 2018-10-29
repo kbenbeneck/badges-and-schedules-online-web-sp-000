@@ -15,3 +15,12 @@ def assign_rooms(array)
    "Hello, #{name}! You'll be assigned to room #{room}!"
  end
 end
+
+def printer(luminaries)
+  batch_badge_creator(luminaries).each do |result|
+    puts result
+  end
+  assign_rooms(luminaries).each do |result|
+    puts result
+  end
+end
