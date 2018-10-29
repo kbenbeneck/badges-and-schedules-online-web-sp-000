@@ -5,4 +5,4 @@ end
 def batch_badge_creator(luminaries)
   luminaries.map do |name|
     badge_maker(name)
-end  
+end
